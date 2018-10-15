@@ -20,8 +20,8 @@ def rename_files(path, new_name, file_extension):
             print("OS error: {0}".format(err))
             break
 
-# Rename all the jpg images to a "you_new_name" + a number
+# Rename all the jpg images to a "your_new_name" + a number
 # Example
 
 ### f_dir = 'C:/images'
-### rename_files(f_dir, 'you_new_name', '.jpg')
+### rename_files(f_dir, 'your_new_name', '.jpg')
