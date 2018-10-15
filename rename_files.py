@@ -14,7 +14,7 @@ def rename_files(path, new_name, file_extension):
     dirs = os.listdir( path )
     for i,file in enumerate(dirs):
         try:
-            os.rename(path + "/" + file, path + "/" + new_name + '.' + str(i) + ".jpg")
+            os.rename(path + "/" + file, path + "/" + new_name + '.' + str(i) + file_extension)
             # print (i, file)
         except OSError as err:
             print("OS error: {0}".format(err))
